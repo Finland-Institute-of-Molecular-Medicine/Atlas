@@ -3,7 +3,7 @@
 set -e
 
 CONFIG_PATH=${CONFIG_PATH:-/etc/atlas/config-local.js}
-CONFIG_TARGET_PATH="/usr/share/nginx/html/atlas/js/config-local.js"
+CONFIG_TARGET_PATH="/usr/share/nginx/html/js/config-local.js"
 
 # Copy mounted configuration file if present
 if [ -f "${CONFIG_PATH}" ]; then
